@@ -2,7 +2,10 @@ package com.example.servletjspdemo.domain;
 
 public class Person {
 	
-	private String firstName = "unknown";
+	private String firstName = "Imie";
+	private String lastName = "Nazwisko";
+	private String mail = "adres e-mail";
+	private String employerName = "Firma";
 	private int yob = 1900;
 	
 	public Person() {
